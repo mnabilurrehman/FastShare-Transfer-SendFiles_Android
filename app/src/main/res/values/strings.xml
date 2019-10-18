@@ -57,11 +57,8 @@
 
     <string name="sample_ad_id">ca-app-pub-3940256099942544~3347511713</string>
 
-    <string name="sample_ad_banner">ca-app-pub-7696241684946135/5561217639</string>
-    <string name="sample_ad_interstitial">ca-app-pub-7696241684946135/7044570130</string>
-
-    //wrong id for testing only
-    <!--<string name="sample_ad_banner">ca-app-pub-3940256099942544/6300978111</string>-->
-    <!--<string name="sample_ad_interstitial">	ca-app-pub-3940256099942544/1033173712</string>-->
+    //id for testing only
+    <string name="sample_ad_banner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="sample_ad_interstitial">	ca-app-pub-3940256099942544/1033173712</string>
 
 </resources>
