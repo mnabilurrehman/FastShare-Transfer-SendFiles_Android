@@ -145,7 +145,7 @@
         <activity android:name=".activity.FlashLightAPI2Activity"></activity>
         <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="60da5326464d5d7c7774a157b0a063654acba895" />
+            android:value="Your Fabric Key Here" />
     </application>
 
 </manifest>
