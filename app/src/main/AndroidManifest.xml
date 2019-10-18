@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shareapp.share.transferfiles">
+
+    <!-- Internet required for mDNS and transfer -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Storage access required for transferring files -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Enables the broadcast and transfer services to run at boot -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.UPDATE_DEVICE_STATS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_BLUETOOTH_SHARE" />
+
+    <!-- to turn on flash light -->
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <!-- Allows access to the flashlight -->
+    <!-- <permission android:name="android.permission.FLASHLIGHT" -->
+    <!-- android:permissionGroup="android.permission-group.HARDWARE_CONTROLS" -->
+    <!-- android:protectionLevel="normal" /> -->
+    <application
+        android:name=".config.VolleyConfig"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/ic_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity" />
+        <activity
+            android:name=".MainTabActivity"
+            android:label="@string/title_activity_main_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CollectionActivity" />
+        <activity
+            android:name=".activity.MainSwipeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.VideoActivity"
+            android:screenOrientation="landscape" />
+
+        <!-- Share activity -->
+        <activity
+            android:name=".activity.ShareActivity"
+            android:label="@string/activity_share">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+
+        <!-- Service for transfers -->
+        <service
+            android:name=".transfer.TransferService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <!-- Receiver for actions that might require the service to start -->
+        <receiver android:name=".util.StartReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".activity.PhotosActivity" />
+        <activity android:name=".activity.Activity_galleryview" />
+        <activity android:name=".activity.HotspotReceiveActivity" />
+        <activity android:name=".activity.HistoryActivity" />
+        <activity android:name=".activity.GroupShareActivity" />
+        <activity android:name=".activity.MessageActivity" />
+        <activity android:name=".activity.FileChooser" />
+        <activity android:name=".activity.FileSharingActivity" />
+        <activity android:name=".activity.InviteActivity" />
+        <activity android:name=".activity.BluetoothOppLauncherActivity" />
+
+        <provider
+            android:name=".util.GenericFileProvider"
+            android:authorities="com.shareapp.share.transferfiles.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity android:name=".activity.GroupFilesTabActivity" />
+        <activity android:name=".activity.GrpPhotosActivity" />
+        <activity
+            android:name=".tutorial.TutorialOneActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tutorial.TutorialTwoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tutorial.TutorialThreeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tutorial.TutorialFourActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tutorial.TutorialFiveActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tutorial.TutorialSixActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tutorial.TutorialSevenActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.FlashLightActivity" />
+        <activity android:name=".activity.FlashLightAPI2Activity"></activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="60da5326464d5d7c7774a157b0a063654acba895" />
+    </application>
+
+</manifest>

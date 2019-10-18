@@ -1,0 +1,280 @@
+{
+  "project_info": {
+    "project_number": "158410478739",
+    "firebase_url": "https://firbasepractice.firebaseio.com",
+    "project_id": "firbasepractice",
+    "storage_bucket": "firbasepractice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158410478739:android:9ccb3bbf5be77259",
+        "android_client_info": {
+          "package_name": "com.alradadi.firebasedatabaseapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158410478739-p272m91kmdt6n9t3j7c73cu3ib290qni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alradadi.firebasedatabaseapplication",
+            "certificate_hash": "37f5d3e650dd5d914ce7de55521820a07b4a7f9f"
+          }
+        },
+        {
+          "client_id": "158410478739-5628m4l6hfglssjba5jnhlqpg9f0vpdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtGS8xES-B1_cFDl1oOHQvuS_uX_13WNA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158410478739-5628m4l6hfglssjba5jnhlqpg9f0vpdc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158410478739:android:e427f22f529c7287",
+        "android_client_info": {
+          "package_name": "com.alradadi.phonefamilylocator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158410478739-np9alorianr4kl2ka9nre337397fq8q9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alradadi.phonefamilylocator",
+            "certificate_hash": "37f5d3e650dd5d914ce7de55521820a07b4a7f9f"
+          }
+        },
+        {
+          "client_id": "158410478739-5628m4l6hfglssjba5jnhlqpg9f0vpdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtGS8xES-B1_cFDl1oOHQvuS_uX_13WNA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158410478739-5628m4l6hfglssjba5jnhlqpg9f0vpdc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158410478739:android:22d874c49bf83df8",
+        "android_client_info": {
+          "package_name": "com.alradadi.phonelocator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158410478739-57ib30gu29mp033328d22ut74c8qhs7g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alradadi.phonelocator",
+            "certificate_hash": "37f5d3e650dd5d914ce7de55521820a07b4a7f9f"
+          }
+        },
+        {
+          "client_id": "158410478739-5628m4l6hfglssjba5jnhlqpg9f0vpdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtGS8xES-B1_cFDl1oOHQvuS_uX_13WNA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158410478739-5628m4l6hfglssjba5jnhlqpg9f0vpdc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158410478739:android:94ad6538ca9c0424",
+        "android_client_info": {
+          "package_name": "com.example.nabilurrehman.firbasepractice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158410478739-5628m4l6hfglssjba5jnhlqpg9f0vpdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtGS8xES-B1_cFDl1oOHQvuS_uX_13WNA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158410478739:android:362a701cf0693052",
+        "android_client_info": {
+          "package_name": "com.example.nabilurrehman.pushnotificaton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158410478739-5628m4l6hfglssjba5jnhlqpg9f0vpdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtGS8xES-B1_cFDl1oOHQvuS_uX_13WNA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158410478739:android:086594692c0c05cf",
+        "android_client_info": {
+          "package_name": "com.shareapp.share.transferfiles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158410478739-sfmac0o7hone8igrlr4uq271fv0nf9b5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shareapp.share.transferfiles",
+            "certificate_hash": "37f5d3e650dd5d914ce7de55521820a07b4a7f9f"
+          }
+        },
+        {
+          "client_id": "158410478739-5628m4l6hfglssjba5jnhlqpg9f0vpdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtGS8xES-B1_cFDl1oOHQvuS_uX_13WNA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158410478739-5628m4l6hfglssjba5jnhlqpg9f0vpdc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158410478739:android:a0f0eb2ff58c9360",
+        "android_client_info": {
+          "package_name": "nabilurrehman.example.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158410478739-5628m4l6hfglssjba5jnhlqpg9f0vpdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtGS8xES-B1_cFDl1oOHQvuS_uX_13WNA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

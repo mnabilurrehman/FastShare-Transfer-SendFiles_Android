@@ -1,0 +1,67 @@
+<resources>
+
+    <string name="app_name">Fast Share - Transfer &amp; Send Files</string>
+    <string name="title_activity_main_tab">MainTabActivity</string>
+    <string name="tab_text_1">Audios</string>
+    <string name="tab_text_2">Apps</string>
+    <string name="tab_text_3">Videos</string>
+    <string name="tab_text_4">Photos</string>
+    <string name="tab_text_5">Files</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="menu_transfer_title">ShareData</string>
+
+    <!-- Transfer service -->
+    <string name="service_transfer_title">ShareData Transfer</string>
+    <string name="service_transfer_action_stop">Stop</string>
+    <string name="service_transfer_action_retry">Retry</string>
+    <string name="service_transfer_server_title">ShareData Service</string>
+    <string name="service_transfer_server_listening_text">Listening for incoming transfers</string>
+    <string name="service_transfer_status_connecting">Connecting to %1$s…</string>
+    <string name="service_transfer_status_receiving">Receiving items from %1$s…</string>
+    <string name="service_transfer_status_sending">Sending items to %1$s…</string>
+    <string name="service_transfer_status_success">Transfer with %1$s completed</string>
+    <string name="service_transfer_status_error">Transfer with %1$s failed: %2$s</string>
+    <string name="service_transfer_unknown_device">[unknown]</string>
+    <string name="service_transfer_notification_url">URL</string>z
+
+    <!-- Share activity -->
+    <string name="activity_share">Send with ShareData</string>
+    <string name="activity_share_label">Select a device from the list below to receive the transfer:</string>
+    <string name="activity_share_intent">ShareData cannot send the data it has received from a third-party application.</string>
+    <string name="activity_share_permissions">ShareData cannot transfer data without permission to access storage.</string>
+
+
+    <!-- Transfer notification manager -->
+    <string name="channel_service_name">Transfer Service</string>
+    <string name="channel_transfer_name">Ongoing Transfers</string>
+    <string name="channel_notification_name">Transfer Completion</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--Flash Light-->
+    <!-- Strings related to Settings -->
+    <string name="pref_long_press_title">Long Press</string>
+    <string name="pref_long_press_summary">Toggle the flashlight with a long press anywhere on the screen.</string>
+
+    <string name="white_title">White When On</string>
+    <string name="white_summary">Turn the background white when the light is on.</string>
+    <string name="title_menu_settings">settings</string>
+    <string name="pref_long_press">long_press</string>
+    <string name="pref_white">white</string>
+    <string name="action_about_title">About</string>
+
+
+    <string name="sample_ad_id">ca-app-pub-3940256099942544~3347511713</string>
+
+    <string name="sample_ad_banner">ca-app-pub-7696241684946135/5561217639</string>
+    <string name="sample_ad_interstitial">ca-app-pub-7696241684946135/7044570130</string>
+
+    //wrong id for testing only
+    <!--<string name="sample_ad_banner">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="sample_ad_interstitial">	ca-app-pub-3940256099942544/1033173712</string>-->
+
+</resources>
